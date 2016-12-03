@@ -1,37 +1,44 @@
-# 你已添加了首个自述文件!
-README.md 文件旨在使读者快速熟悉项目的作用。 刚刚接触 Markdown? [了解详细信息] (http://go.microsoft.com/fwlink/p/?LinkId=524306clcid=0x804)
+# 基于Azure和TFS的容器化DevOps演示
 
-## 编辑此自述文件并将更改提交到主题分支
-在 Git 中，分支很便宜。  只要对存储库进行更改，都应使用分支。单击编辑图标编辑此文件。
+本代码库向您展示如何使用微软云计算平台Microsoft Azure和Team Foundation Server构建基于容器的DevOps持续发布管道。
 
-然后对此自述文件进行某些更改。
+## 相关技术和工具
 
-> 对 _this_ blockquote 进行一些**编辑**
+本演示中使用了以下工具和技术
 
-完成后，单击保存按钮旁边的下拉箭头 - 这将使你能够将更改提交到新分支。
+- 微软云计算平台Microsoft Azure 
+- 微软软件工程全生命周期管理平台 Team Foundation Server或Visual Studio Team Services
+- Visual Studio Tools for Docker
+- Docker for Windows 
+- Docker Machine 
+- vmware Harbor 开源私有容器镜像仓库引擎
+- Asp.net Core 跨平台开发技术
 
-## 创建拉取请求以将更改提交回主分支
-拉取请求提供一种将主题分支移回主分支的方法。
+## 相关资料和环境搭建指导手册
 
-单击**代码**中心的**拉取请求**页，然后单击“新建拉取请求”，以创建从主题分支到主分支的新拉取请求。
+如果您对本演示中的场景感兴趣，请阅读以下参考资料：
 
-添加好详细信息后，单击“创建拉取请求”。 发送拉取请求后，审阅者将能够看到你的更改，并对修改提供建议，甚至推送后续提交。
-
-第一次创建拉取请求?   [了解详细信息] (http://go.microsoft.com/fwlink/?LinkId=533211&clcid=0x804)
-
-### 恭喜! 你已完成了代码中心的这段旅程!
+- [环境搭建和演示步骤](http://docs.devopshub.cn/docs/azure-workshop/en/latest/)
+- [TFS搭建和实验手册](http://docs.devopshub.cn/docs/vsalm-hols/en/latest/)
+- [使用VSTS/TFS搭建基于容器的持续交付管道](https://devopshub.cn/2016/09/29/docker4dotnet-5-container-ci-cd-on-vsts-tfs-azure/)
+- [使用Azure云存储构建高速 Docker registry](https://devopshub.cn/2016/08/13/docker4dotnet-4-fast-docker-registry-on-azure/)
+- [基于Azure的容器化主机的创建和使用](https://devopshub.cn/2016/07/13/docker4dotnet-2-docker-machine-create-dockerized-hosts/)
+- [Docker & DotNet 前世今生 & 世界你好](https://devopshub.cn/2016/07/08/docker4dotnet-1-overview-and-helloworld/)
 
 #后续步骤
 
-如果你尚未完成，[安装 Git](https://git-scm.com/downloads) (以及适用于 Linux 或 Mac OS 的 [Git 凭据管理器](https://java.visualstudio.com/Downloads/gitcredentialmanager/Index) )
+有任何问题或您有合作需求，请关注我公司公众号或通过邮件与我们联系
 
-选择并安装这些受支持的 IDE 之一:
-* [Visual Studio](https://go.microsoft.com/fwlink/?LinkId=309297&clcid=0x804&slcid=0x804)
-* [Android Studio](https://developer.android.com/studio) (带有 [Team Services 插件](https://java.visualstudio.com/Downloads/intellijplugin/Index))
-* [Eclipse](https://www.eclipse.org/downloads) (带有 [Team Explorer Everywhere](https://java.visualstudio.com/Downloads/eclipseplugin/Index))
-* [IntelliJ IDEA](https://www.jetbrains.com/idea/download) (带有 [Team Services 插件](https://java.visualstudio.com/Downloads/intellijplugin/Index))
-* [Visual Studio Code](https://code.visualstudio.com/Download) (带有 [Team Services 扩展](https://java.visualstudio.com/Downloads/visualstudiocode/Index))
+公众号二维码(扫码关注)
 
-然后将此存储库克隆到本地计算机以开始自己的项目。
+![扫码关注](https://devopshub.cn/wp-content/uploads/2015/10/qrcode_for_gh_b7c158df1fd1_430-300x300.jpg)
 
-编码愉快!
+联系邮箱：info@lean-soft.cn
+
+#关于LEANSOFT
+
+英捷创软科技（北京）有限公司（英文：LEANSOFT）是由微软Regional Director 和MVP徐磊创立的专门从事软件工程解决方案，咨询服务和产品研发的高科技企业；公司自成立至今已经为多家大型企业提供了相关的服务，另外为全国各地的上百家企业提供过培训，参与人数超过千人。
+ 
+过去的2016年，我们在金融，电信和传统制造业等多个行业与多家大型企业的研发中心合作，包括中国农业银行，中国银行，兴业银行，华为，上汽集团等。在刚刚举行的Ignite 2016微软技术大会的keynote演讲上中国农业银行互联网金融项目作为微软DevOps解决方案在国内的案例被推荐给了参会的超过3100名嘉宾。
+ 
+公司核心人员均具备超过10年的IT从业经验和丰富的软件工程，敏捷开发和DevOps解决方案咨询服务能力，所有成员均具备微软认证工程师称号，并有微软最有价值专家MVP两名；这些核心成员具备丰富的从业经验，在微软，IBM，HSBC等大型企业工作多年，对于大型企业研发流程，工具和文化治理具有独到的见解和实际操作经验。
