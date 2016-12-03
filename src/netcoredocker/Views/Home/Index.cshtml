@@ -1,29 +1,59 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "首页";
 }
 
 <div class="row">
     <div class="col-md-5">
-        <h2>当前容器ID：@ViewData["ContainerID"]</h2>
+        <h2>基于Azure和TFS的容器化DevOps</h2>
+        <br />
+        <b>当前容器ID：@ViewData["ContainerID"]</b>
+        <br /><br />        
+        <b>本实验的所有相关搭建和操作手册请参考《相关文档》部分内容。如果遇到任何操作问题请与LEANSOFT联系：info@lean-soft.cn</b>
     </div>
     <div class="col-md-4">
-        <img src="~/images/B307-300x297.png" class="img-responsive" style="padding-top:2em" />
-        <p>扫描二维码加入课程交流群</p>
+        <img src="~/images/devopshub_430-300x300.jpg" class="img-responsive" style="padding-top:2em" />
+        <p>扫描二维码关注DevOpshub公众号</p>
     </div>
 
 <div class="row">
     <div class="col-md-5">
-        <h2>基于Azure的DevOps数据中心</h2>
+        <h2>相关技术和工具</h2>
+        <p>本实验中使用了以下技术和工具</p>
         <ul>
-            <li>Asp.net Core</li>
-            <li>Docker for Windows/li>
+            <li>Microsoft Azure</li>
+            <li>Asp.net Core & Visual Studio Tools for Docker</li>
+            <li>Docker for Windows & docker-machine</li>
+            <li>vmware Harbor</li>
+            <li>Team Foundation Server 2017</li>
         </ul>
+        
     </div>
     <div class="col-md-4">
         <h2>相关文档</h2>
+        <p>点击以下链接获取本实验相关指导文档</p>
         <ul>
             <li><a href="http://docs.devopshub.cn/docs/azure-workshop/en/latest/">动手实验：容器化DevOps数据中心</a></li>
             <li><a href="http://docs.devopshub.cn/docs/vsalm-hols/en/latest/">动手实验：DevOps敏捷开发动手实验</a></li>
+            <li>
+                <a href="https://devopshub.cn/2016/09/29/docker4dotnet-5-container-ci-cd-on-vsts-tfs-azure/">
+                    使用VSTS/TFS搭建基于容器的持续交付管道
+                </a>
+            </li>
+            <li>
+                <a href="https://devopshub.cn/2016/08/13/docker4dotnet-4-fast-docker-registry-on-azure/">
+                    使用Azure云存储构建高速 Docker registry
+                </a>
+            </li>
+            <li>
+                <a href="https://devopshub.cn/2016/07/13/docker4dotnet-2-docker-machine-create-dockerized-hosts/">
+                    基于Azure的容器化主机的创建和使用
+                </a>
+            </li>
+            <li>
+                <a href="https://devopshub.cn/2016/07/08/docker4dotnet-1-overview-and-helloworld/">
+                    Docker & DotNet 前世今生 & 世界你好
+                </a>
+            </li>
         </ul>
     </div>
 </div>
